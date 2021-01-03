@@ -12,7 +12,7 @@
 /* elementos base */
 body{ 
     background: var(--preta) ;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Arial', Times, serif;
     color:white;
 }
 
@@ -44,8 +44,9 @@ header nav a:hover{
 .filme-principal{
     font-size: 16px;
     background: linear-gradient(rgba(0,0,0,.50),rgba(0,0,0.50)100%), url('/img/gambito_rainha.jpg');
-    height:600px;
-    background-size: cover;
+
+    height:680px;
+    background-size:cover;
 
     display: flex; 
     flex-direction: column;
@@ -60,8 +61,8 @@ header nav a:hover{
 
 .filme-principal .titulo{ 
     margin-top: 15%;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size:40px;
+    font-size:40px;  
+    font-family: 'Trebuchet MS', Arial, sans-serif;
 } 
 
 .botao{
@@ -72,7 +73,7 @@ header nav a:hover{
     margin-right: 15px; 
     font-size: 12px; 
     cursor: pointer; 
-    transition: 0.3s ease all;
+    transition: .3s ease all;
 } 
 
 .botao:hover{
@@ -90,7 +91,7 @@ header nav a:hover{
 } 
 
 .filme-principal .container{
-    width: 37%;
+    width: 67%;
 } 
 
 .box-filme{
@@ -98,4 +99,8 @@ header nav a:hover{
     width:100% 
     display: block;
     
+} 
+
+.corrosel-filmes{
+    margin-top:5px;
 }
